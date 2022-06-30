@@ -6,6 +6,7 @@ public class Main {
         ///System.out.println(a);
 
         ///new LongestPalindrome_409().longestPalindrome("aaacccddffgg");
-        new MinimumMovesToEqualArrayElementsII_462().minMoves2(num);
+        //new MinimumMovesToEqualArrayElementsII_462().minMoves2(num);
+        System.out.println(new PowerOfTwo_231().isPowerOfTwo(-2147483648));
     }
 }
