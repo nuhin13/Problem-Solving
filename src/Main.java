@@ -10,6 +10,9 @@ public class Main {
         //new MinimumMovesToEqualArrayElementsII_462().minMoves2(num);
         //System.out.println(new PowerOfTwo_231().isPowerOfTwo(-2147483648));
 
-        new MaximumUnitsOnATruck_1710().maximumUnits(boxType, 10);
+        //new MaximumUnitsOnATruck_1710().maximumUnits(boxType, 10);
+
+        //System.out.println(new FibonacciNumber_509().fib(40));
+        System.out.println(new ClimbingStairs_70().climbStairsTwo(45));
     }
 }
