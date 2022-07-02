@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         int[] num = {1,2,3,4,5,7,10,11,17};
-        int[] hori = {1,2,4};
+        int[] hori = {10,15,20,40,5};
         int[] ver = {1,3};
         int[][] boxType = {{5,10},{2,5},{4,7},{3,9}};
 
@@ -16,6 +16,7 @@ public class Main {
 
         //System.out.println(new FibonacciNumber_509().fib(40));
         //System.out.println(new ClimbingStairs_70().climbStairsTwo(45));
-        System.out.println(new MaximumAreaOfAPieceOfCakeAfterHorizontalAndVerticalCuts_1465().maxArea(5, 4, hori, ver));
+       // System.out.println(new MaximumAreaOfAPieceOfCakeAfterHorizontalAndVerticalCuts_1465().maxArea(5, 4, hori, ver));
+        System.out.println(new MinCostClimbingStairs_746().minCostClimbingStairs(hori));
     }
 }
