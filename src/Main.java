@@ -32,6 +32,9 @@ public class Main {
 
         //System.out.println(new FibonacciNumber_509().fib(40));
         //System.out.println(new ClimbingStairs_70().climbStairsTwo(45));
+       // System.out.println(new MaximumAreaOfAPieceOfCakeAfterHorizontalAndVerticalCuts_1465().maxArea(5, 4, hori, ver));
+        //System.out.println(new MinCostClimbingStairs_746().minCostClimbingStairs(hori));
+        //System.out.println(new WiggleSubsequence_376().wiggleMaxLength(num));
         //System.out.println(new MaximumAreaOfAPieceOfCakeAfterHorizontalAndVerticalCuts_1465().maxArea(5, 4, hori, ver));
         //System.out.println(new MinCostClimbingStairs_746().minCostClimbingStairs(hori));
         new Candy_135().candy(num);
