@@ -38,6 +38,23 @@ public class Main {
         //System.out.println(new MaximumAreaOfAPieceOfCakeAfterHorizontalAndVerticalCuts_1465().maxArea(5, 4, hori, ver));
         //System.out.println(new MinCostClimbingStairs_746().minCostClimbingStairs(hori));
         //new Candy_135().candy(num);
-        System.out.println(new InterleavingString_97().isInterleave("aa", "ab", "aaba"));
+        //System.out.println(new InterleavingString_97().isInterleave("aa", "ab", "aaba"));
+
+        System.out.println(new Linked_List_Cycle_141().hasCycle(nodeSet()));
     }
+
+    public static ListNode nodeSet() {
+        ListNode node1 = new ListNode(3);
+        ListNode node2 = new ListNode(2);
+        ListNode node3 = new ListNode(0);
+        ListNode node4 = new ListNode(-4);
+
+        node1.next = node2;
+        node2.next = node3;
+        node3.next = node4;
+        node4.next = null;
+
+        return node1;
+    }
+
 }
