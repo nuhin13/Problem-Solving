@@ -40,7 +40,9 @@ public class Main {
         //new Candy_135().candy(num);
         //System.out.println(new InterleavingString_97().isInterleave("aa", "ab", "aaba"));
 
-        System.out.println(new Linked_List_Cycle_141().hasCycle(nodeSet()));
+        //System.out.println(new Linked_List_Cycle_141().hasCycle(nodeSet()));
+        System.out.println(new ReverseWordsInAString_151().reverseWords("a good   example"));
+        //System.out.println(new RemoveAllAdjacentDuplicatesInString_1047().removeDuplicates("azxxzy"));
     }
 
     public static ListNode nodeSet() {

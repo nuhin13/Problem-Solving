@@ -37,7 +37,7 @@ public class Linked_List_Cycle_141 {
             slow = slow.next;
             fast = fast.next.next;
 
-            if(slow.val == fast.val)
+            if(slow == fast)
                 return true;
         }
 
