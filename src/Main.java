@@ -41,8 +41,21 @@ public class Main {
         //System.out.println(new InterleavingString_97().isInterleave("aa", "ab", "aaba"));
 
         //System.out.println(new Linked_List_Cycle_141().hasCycle(nodeSet()));
-        System.out.println(new ReverseWordsInAString_151().reverseWords("a good   example"));
+        //System.out.println(new ReverseWordsInAString_151().reverseWords("a good   example"));
+
+
+        String[] a = {"abc", "d", "defg", "c"};
+        String[] b = {"abcddefg"};
+        int[] arr = {2,5,3,9,5,3};
+
+        //System.out.println(new CheckIfTwoStringArraysAreEquivalent_1662().arrayStringsAreEqual(a, b));
+        //System.out.println(new DetermineifStringHalvesAreAlike_1704().halvesAreAlike("textbok"));
         //System.out.println(new RemoveAllAdjacentDuplicatesInString_1047().removeDuplicates("azxxzy"));
+        //System.out.println(new Determine_if_Two_Strings_Are_Close_1657().closeStrings("abbbzcf", "babzzcz"));
+        //System.out.println(new Determine_if_Two_Strings_Are_Close_1657().closeStrings("abbzzca", "babzzcz"));
+        //System.out.println(new UniqueNumberOfOccurrences_1207().uniqueOccurrences(arr));
+        //System.out.println(new SortCharactersByFrequency_451().frequencySort("dsfsdfsdfsduuuuuuu"));
+        System.out.println(new MinimumAverageDifference_2256().minimumAverageDifference(arr));
     }
 
     public static ListNode nodeSet() {
