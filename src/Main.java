@@ -1,3 +1,6 @@
+import java.util.Arrays;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
         int[] num = {1,2,2,5,6,7,9,2,1,4};
@@ -46,7 +49,8 @@ public class Main {
 
         String[] a = {"abc", "d", "defg", "c"};
         String[] b = {"abcddefg"};
-        int[] arr = {2,5,3,9,5,3};
+        String bb = "codeleet";
+        int[] arr = {73,74,75,71,69,72,76,73};
 
         //System.out.println(new CheckIfTwoStringArraysAreEquivalent_1662().arrayStringsAreEqual(a, b));
         //System.out.println(new DetermineifStringHalvesAreAlike_1704().halvesAreAlike("textbok"));
@@ -55,7 +59,25 @@ public class Main {
         //System.out.println(new Determine_if_Two_Strings_Are_Close_1657().closeStrings("abbzzca", "babzzcz"));
         //System.out.println(new UniqueNumberOfOccurrences_1207().uniqueOccurrences(arr));
         //System.out.println(new SortCharactersByFrequency_451().frequencySort("dsfsdfsdfsduuuuuuu"));
-        System.out.println(new MinimumAverageDifference_2256().minimumAverageDifference(arr));
+        //System.out.println(new MinimumAverageDifference_2256().minimumAverageDifference(arr));
+
+        //System.out.println(Arrays.toString(new Sort_the_People_2418().sortPeople(a, arr)));
+        //System.out.println(new ShuffleString_1528().restoreString(bb, arr));
+        //System.out.println(Arrays.toString(new DailyTemperatures_739().dailyTemperatures(arr)));
+
+        List<Integer> rooms1 = List.of(4);
+        List<Integer> rooms2 = List.of(3);
+        List<Integer> rooms3 = List.of();
+        List<Integer> rooms4 = List.of(2,5,7);
+        List<Integer> rooms10 = List.of(1);
+        List<Integer> rooms5 = List.of();
+        List<Integer> rooms6 = List.of(8,9);
+        List<Integer> rooms7 = List.of();
+        List<Integer> rooms8 = List.of();
+        List<Integer> rooms9 = List.of(6);
+        List<List<Integer>> rooms = List.of(rooms1, rooms2, rooms3, rooms4, rooms10, rooms5, rooms6, rooms7, rooms8, rooms9);
+
+        System.out.println(new KeysAndRooms_841().canVisitAllRooms(rooms));
     }
 
     public static ListNode nodeSet() {
