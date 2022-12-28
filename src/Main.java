@@ -6,7 +6,6 @@ public class Main {
         int[] num = {1,2,2,5,6,7,9,2,1,4};
         int[] hori = {10,15,20,40,5};
         int[] ver = {1,3};
-        int[][] boxType = {{5,10},{2,5},{4,7},{3,9}};
 
         /*Testing
         /*String a = "a";
@@ -77,7 +76,12 @@ public class Main {
         List<Integer> rooms9 = List.of(6);
         List<List<Integer>> rooms = List.of(rooms1, rooms2, rooms3, rooms4, rooms10, rooms5, rooms6, rooms7, rooms8, rooms9);
 
-        System.out.println(new KeysAndRooms_841().canVisitAllRooms(rooms));
+        //System.out.println(new KeysAndRooms_841().canVisitAllRooms(rooms));
+        //System.out.println(new HappyNumber_202().isHappy(2));
+
+        int[][] boxType = {{1,2,3},{4,5,6},{7,8,9}};
+
+        System.out.println(new SpiralMatrix_54().spiralOrder(boxType));
     }
 
     public static ListNode nodeSet() {
