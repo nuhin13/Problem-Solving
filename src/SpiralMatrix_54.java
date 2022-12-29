@@ -7,8 +7,6 @@ public class SpiralMatrix_54 {
     public List<Integer> spiralOrder(int[][] matrix) {
 
         List<Integer> spiral = new ArrayList<>();
-        boolean isLengthEven = (matrix.length % 2 == 0);
-
         HashMap<Integer, List<Integer>> map = new HashMap<>();
 
         for (int i = 0; i < matrix.length; i++) {
@@ -21,16 +19,24 @@ public class SpiralMatrix_54 {
             map.computeIfAbsent(11, k -> new ArrayList<>()).add(ints[matrix[0].length - 1]);
         }
 
+        if(!map.containsKey(0)){
+            spiral.addAll(map.get(11));
+            return spiral;
+        }
+
         spiral.addAll(map.get(0));
         spiral.addAll(map.get(11));
 
+        int j = 2;
+
         for (int i = matrix.length - 1; i > 0; i--) {
             List<Integer> item = map.get(i);
-            if ((i + 1) % 2 == 0) {
+            if (j % 2 == 0) {
                 Collections.reverse(item);
             }
 
             spiral.addAll(item);
+            j++;
         }
 
         System.out.println(map);

@@ -79,9 +79,12 @@ public class Main {
         //System.out.println(new KeysAndRooms_841().canVisitAllRooms(rooms));
         //System.out.println(new HappyNumber_202().isHappy(2));
 
-        int[][] boxType = {{1,2,3},{4,5,6},{7,8,9}};
+        int[][] boxType = {{1}};
+        String[] strs = {"ab","a"};
 
-        System.out.println(new SpiralMatrix_54().spiralOrder(boxType));
+        //System.out.println(new SpiralMatrix_54().spiralOrder(boxType));
+        //System.out.println(new LongestCommonPrefix_14().longestCommonPrefix(strs));
+        System.out.println(new MultiplyStrings_43().multiply("9", "99"));
     }
 
     public static ListNode nodeSet() {
