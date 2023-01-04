@@ -49,7 +49,6 @@ public class Main {
         String[] a = {"abc", "d", "defg", "c"};
         String[] b = {"abcddefg"};
         String bb = "codeleet";
-        int[] arr = {73,74,75,71,69,72,76,73};
 
         //System.out.println(new CheckIfTwoStringArraysAreEquivalent_1662().arrayStringsAreEqual(a, b));
         //System.out.println(new DetermineifStringHalvesAreAlike_1704().halvesAreAlike("textbok"));
@@ -64,7 +63,7 @@ public class Main {
         //System.out.println(new ShuffleString_1528().restoreString(bb, arr));
         //System.out.println(Arrays.toString(new DailyTemperatures_739().dailyTemperatures(arr)));
 
-        List<Integer> rooms1 = List.of(4);
+       /* List<Integer> rooms1 = List.(4);
         List<Integer> rooms2 = List.of(3);
         List<Integer> rooms3 = List.of();
         List<Integer> rooms4 = List.of(2,5,7);
@@ -75,7 +74,7 @@ public class Main {
         List<Integer> rooms8 = List.of();
         List<Integer> rooms9 = List.of(6);
         List<List<Integer>> rooms = List.of(rooms1, rooms2, rooms3, rooms4, rooms10, rooms5, rooms6, rooms7, rooms8, rooms9);
-
+        */
         //System.out.println(new KeysAndRooms_841().canVisitAllRooms(rooms));
         //System.out.println(new HappyNumber_202().isHappy(2));
 
@@ -84,7 +83,7 @@ public class Main {
 
         //System.out.println(new SpiralMatrix_54().spiralOrder(boxType));
         //System.out.println(new LongestCommonPrefix_14().longestCommonPrefix(strs));
-        System.out.println(new MultiplyStrings_43().multiply("9", "99"));
+        //System.out.println(new MultiplyStrings_43().multiply("9", "99"));
         //new Candy_135().candy(num);
 
         //new LongestConsecutiveSequence_128().longestConsecutive_1(num);
@@ -92,6 +91,10 @@ public class Main {
 
         //new MergeTwoSortedLists_21().mergeTwoLists(generateLinkList_1(), generateLinkList_2());
         //new CountItemsMatchingARule_1773().countMatches(stringMatch, "stringMatch", "silver");
+
+        int[] arr = {2,2,3,3,2,4,4,4,4,4,4,4,4,4,4};
+
+        new MinimumRoundstoCompleteAllTasks_2244().minimumRounds(arr);
     }
 
     private static ListNode generateLinkList_1() {
