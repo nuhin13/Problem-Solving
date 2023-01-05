@@ -121,7 +121,7 @@ public class Main {
         //System.out.println(new FizzBuzz_412().fizzBuzz(15));
         //System.out.println(new PowerofThree_326().isPowerOfThree(9));
         //System.out.println(new DetectCapital_520().detectCapitalUse("LEC"));
-        System.out.println(new DeleteColumnstoMakeSorted_944().minDeletionSize(strs));
+        //System.out.println(new DeleteColumnstoMakeSorted_944().minDeletionSize(strs));
     }
 
     public static ListNode nodeSet() {
