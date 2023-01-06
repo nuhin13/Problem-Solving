@@ -1,6 +1,8 @@
 import java.util.Arrays;
 
 public class MultiplyStrings_43 {
+
+    //Incomplete
     public String multiply(String num1, String num2) {
 
         if (num1.length() == 1 && num2.length() == 1) {

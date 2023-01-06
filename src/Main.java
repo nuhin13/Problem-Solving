@@ -79,7 +79,7 @@ public class Main {
         //System.out.println(new HappyNumber_202().isHappy(2));
 
         int[][] boxType = {{1}};
-        String[] strs = {"ab","a"};
+        String[] strs = {"zyx","wvu","tsr"};
 
         //System.out.println(new SpiralMatrix_54().spiralOrder(boxType));
         //System.out.println(new LongestCommonPrefix_14().longestCommonPrefix(strs));
@@ -118,6 +118,12 @@ public class Main {
        // list3.next = null;
 
         return  list;
+        //System.out.println(new MultiplyStrings_43().multiply("9", "99"));
+        //System.out.println(new WordPattern_290().wordPattern("abba", "dog dog dog dog"));
+        //System.out.println(new FizzBuzz_412().fizzBuzz(15));
+        //System.out.println(new PowerofThree_326().isPowerOfThree(9));
+        //System.out.println(new DetectCapital_520().detectCapitalUse("LEC"));
+        System.out.println(new DeleteColumnstoMakeSorted_944().minDeletionSize(strs));
     }
 
     public static ListNode nodeSet() {
