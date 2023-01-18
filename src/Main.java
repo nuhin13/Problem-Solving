@@ -92,8 +92,11 @@ public class Main {
         //new MergeTwoSortedLists_21().mergeTwoLists(generateLinkList_1(), generateLinkList_2());
         //new CountItemsMatchingARule_1773().countMatches(stringMatch, "stringMatch", "silver");
 
-        int[] arr = {2,2,3,3,2,4,4,4,4,4,4,4,4,4,4};
+        //int[] arr = {2,2,3,3,2,4,4,4,4,4,4,4,4,4,4};
+        int[] arr = {10,6,8,7,7,8};
 
+        //new MinimumRoundstoCompleteAllTasks_2244().minimumRounds(arr);
+        new MaximumIceCreamBars_1833().maxIceCream(arr, 10);
 
         //int[][] dd = {{10,16},{2,8},{1,6},{7,12}};
         //int[][] dd = {{1,2},{2,3},{3,4},{4,5}};
