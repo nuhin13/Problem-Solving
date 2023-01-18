@@ -117,7 +117,8 @@ public class Main {
         //System.out.println(Arrays.toString(new IntersectionofTwoArraysII_350().intersect(num1, num2)));
         //System.out.println(new ValidPalindrome_125().isPalindrome("0P"));
         //System.out.println(new ValidPalindromeII_680().validPalindrome("aguokepatgbnvfqmgmlcupuufxoohdfpgjdmysgvhmvffcnqxjjxqncffvmhvgsymdjgpfdhooxfuupuculmgmqfvnbgtapekouga"));
-        System.out.println(new ExcelSheetColumnNumber_171().titleToNumber("AZ"));
+        //System.out.println(new ExcelSheetColumnNumber_171().titleToNumber("AZ"));
+        System.out.println(new FirstUniqueCharacterInAString_387().firstUniqChar("aacc"));
     }
 
     private static ListNode generateLinkList_1() {
