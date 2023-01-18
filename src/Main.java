@@ -94,7 +94,27 @@ public class Main {
 
         int[] arr = {2,2,3,3,2,4,4,4,4,4,4,4,4,4,4};
 
-        new MinimumRoundstoCompleteAllTasks_2244().minimumRounds(arr);
+
+        //int[][] dd = {{10,16},{2,8},{1,6},{7,12}};
+        //int[][] dd = {{1,2},{2,3},{3,4},{4,5}};
+        int[][] dd = {{3,9},{7,12},{3,8},{6,8},{9,10},{2,9},{0,9},{3,9},{0,6},{2,8}};
+
+        //new MinimumRoundstoCompleteAllTasks_2244().minimumRounds(arr);
+        //new MinimumNumberofArrowstoBurstBalloons_452().findMinArrowShots(dd);
+        //new RomantoInteger_13().romanToInt("MCMXCIV");
+
+        int[] num1 = {1,2,1,3,4,5,6,7,8,4};
+        int[] num2 = {2,3,2};
+
+        //new MergeSortedArray_88().merge(num1, 6, num2, 3);
+        //new PascalsTriangle_118().generate(7);
+        //new PascalsTriangleII_119().generate(7);
+        //new MajorityElement_169().majorityElement(num2);
+        //System.out.println(new MissingNumber_268().missingNumber(num2));
+        //System.out.println(Arrays.toString(new IntersectionofTwoArraysII_350().intersect(num1, num2)));
+        //System.out.println(new ValidPalindrome_125().isPalindrome("0P"));
+        //System.out.println(new ValidPalindromeII_680().validPalindrome("aguokepatgbnvfqmgmlcupuufxoohdfpgjdmysgvhmvffcnqxjjxqncffvmhvgsymdjgpfdhooxfuupuculmgmqfvnbgtapekouga"));
+        System.out.println(new ExcelSheetColumnNumber_171().titleToNumber("AZ"));
     }
 
     private static ListNode generateLinkList_1() {
