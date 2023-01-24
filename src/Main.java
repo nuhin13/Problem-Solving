@@ -1,3 +1,5 @@
+import com.sun.source.tree.Tree;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -96,7 +98,7 @@ public class Main {
         int[] arr = {10,6,8,7,7,8};
 
         //new MinimumRoundstoCompleteAllTasks_2244().minimumRounds(arr);
-        new MaximumIceCreamBars_1833().maxIceCream(arr, 10);
+        //new MaximumIceCreamBars_1833().maxIceCream(arr, 10);
 
         //int[][] dd = {{10,16},{2,8},{1,6},{7,12}};
         //int[][] dd = {{1,2},{2,3},{3,4},{4,5}};
@@ -118,26 +120,42 @@ public class Main {
         //System.out.println(new ValidPalindrome_125().isPalindrome("0P"));
         //System.out.println(new ValidPalindromeII_680().validPalindrome("aguokepatgbnvfqmgmlcupuufxoohdfpgjdmysgvhmvffcnqxjjxqncffvmhvgsymdjgpfdhooxfuupuculmgmqfvnbgtapekouga"));
         //System.out.println(new ExcelSheetColumnNumber_171().titleToNumber("AZ"));
-        System.out.println(new FirstUniqueCharacterInAString_387().firstUniqChar("aacc"));
+        //System.out.println(new FirstUniqueCharacterInAString_387().firstUniqChar("aacc"));
+
+        //System.out.println(new IntersectionofTwoLinkedLists_160().getIntersectionNode(generateLinkList_1(), generateLinkList_2()));
+        //System.out.println(new BinaryTreeInorderTraversal_94().inorderTraversal(treeNode()));
+        //System.out.println(new SymmetricTree_101().isSymmetric(treeNode()));
+        System.out.println(new ReverseBits_190().reverseBits(8));
     }
 
     private static ListNode generateLinkList_1() {
-        ListNode list = new ListNode(1);
-        ListNode list2 = new ListNode(2);
-        ListNode list3 = new ListNode(4);
+        ListNode list = new ListNode(4);
+        ListNode list2 = new ListNode(1);
+        ListNode list3 = new ListNode(8);
+        ListNode list4 = new ListNode(4);
+        ListNode list5 = new ListNode(5);
         list.next = list2;
         list2.next = list3;
-        list3.next = null;
+        list3.next = list4;
+        list4.next = list5;
+        list5.next = null;
 
         return  list;
     }
     private static ListNode generateLinkList_2() {
-        ListNode list = new ListNode(1);
-        ListNode list2 = new ListNode(4);
+        ListNode list = new ListNode(5);
+        ListNode list2 = new ListNode(6);
+        ListNode list3 = new ListNode(1);
+        ListNode list4 = new ListNode(8);
+        ListNode list5 = new ListNode(4);
+        ListNode list6 = new ListNode(5);
 
         list.next = list2;
-        list2.next = null;
-       // list3.next = null;
+        list2.next = list3;
+        list3.next = list4;
+        list4.next = list5;
+        list5.next = list6;
+        list6.next = null;
 
         return  list;
         //System.out.println(new MultiplyStrings_43().multiply("9", "99"));
@@ -160,6 +178,20 @@ public class Main {
         node4.next = null;
 
         return node1;
+    }
+
+    public static TreeNode treeNode() {
+
+        TreeNode node4 = new TreeNode(3);
+        TreeNode node5 = new TreeNode(4);
+
+        TreeNode node6 = new TreeNode(4);
+        TreeNode node7 = new TreeNode(3);
+
+        TreeNode node2 = new TreeNode(2, node4, node5);
+        TreeNode node3 = new TreeNode(2,node6, node7);
+
+        return new TreeNode(1, node2, node3);
     }
 
 }
