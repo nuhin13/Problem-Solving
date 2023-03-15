@@ -96,7 +96,7 @@ public class Main {
         int[] arr = {10,6,8,7,7,8};
 
         //new MinimumRoundstoCompleteAllTasks_2244().minimumRounds(arr);
-        new MaximumIceCreamBars_1833().maxIceCream(arr, 10);
+        //new MaximumIceCreamBars_1833().maxIceCream(arr, 10);
 
         //int[][] dd = {{10,16},{2,8},{1,6},{7,12}};
         //int[][] dd = {{1,2},{2,3},{3,4},{4,5}};
@@ -107,7 +107,7 @@ public class Main {
         //new RomantoInteger_13().romanToInt("MCMXCIV");
 
         int[] num1 = {1,2,1,3,4,5,6,7,8,4};
-        int[] num2 = {2,3,2};
+        int[] num2 = {-1,0,1,2,-1,-4};
 
         //new MergeSortedArray_88().merge(num1, 6, num2, 3);
         //new PascalsTriangle_118().generate(7);
@@ -118,7 +118,13 @@ public class Main {
         //System.out.println(new ValidPalindrome_125().isPalindrome("0P"));
         //System.out.println(new ValidPalindromeII_680().validPalindrome("aguokepatgbnvfqmgmlcupuufxoohdfpgjdmysgvhmvffcnqxjjxqncffvmhvgsymdjgpfdhooxfuupuculmgmqfvnbgtapekouga"));
         //System.out.println(new ExcelSheetColumnNumber_171().titleToNumber("AZ"));
-        System.out.println(new FirstUniqueCharacterInAString_387().firstUniqChar("aacc"));
+        //System.out.println(new FirstUniqueCharacterInAString_387().firstUniqChar("aacc"));
+        //new MaximumIceCreamBars_1833().maxIceCream(arr, 10);
+        //System.out.println(new Sqrt_x_69().mySqrt(2147395600));
+
+        //String[] strs1 = {"cab","tin","pew","duh","may","ill","buy","bar","max","doc"};
+        //new ThreeSum_15().threeSum(num2);
+        new GenerateParentheses_22().generateParenthesis(3);
     }
 
     private static ListNode generateLinkList_1() {

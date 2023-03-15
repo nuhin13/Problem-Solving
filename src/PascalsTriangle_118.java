@@ -5,11 +5,11 @@ import java.util.List;
 public class PascalsTriangle_118 {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> result = new ArrayList<>();
-        result.add(new ArrayList<>(List.of(1)));
+        //result.add(new ArrayList<>(List.of(1)));
         if(numRows == 1)
             return result;
 
-        result.add(new ArrayList<>(List.of(1, 1)));
+        //result.add(new ArrayList<>(List.of(1, 1)));
         if(numRows == 2)
             return result;
 

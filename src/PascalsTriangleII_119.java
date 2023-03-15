@@ -4,11 +4,11 @@ import java.util.List;
 public class PascalsTriangleII_119 {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> result = new ArrayList<>();
-        result.add(new ArrayList<>(List.of(1)));
+        //result.add(new ArrayList<>(List.of(1)));
         if(numRows == 0)
             return result;
 
-        result.add(new ArrayList<>(List.of(1, 1)));
+       // result.add(new ArrayList<>(List.of(1, 1)));
         if(numRows == 1)
             return result;
 
