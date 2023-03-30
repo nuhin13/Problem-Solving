@@ -139,7 +139,9 @@ public class Main {
         //System.out.println(new UniquePaths_62().uniquePathsDP(3, 7));
 
         int[][] d = {{1,3,1}, {1,5,1}, {4,2,1}, {9,1,1}, {1,2,1}};
-        System.out.println(new Minimum_Path_Sum_64().minPathSum(d));
+        //System.out.println(new Minimum_Path_Sum_64().minPathSum(d));
+        //System.out.println(new Partition_Labels_763().partitionLabels("ababcbacadefegdehijhklij"));
+        System.out.println(new LetterCombinationsofaPhoneNumber_17().letterCombinations("23"));
     }
 
     private static ListNode generateLinkList_1() {
