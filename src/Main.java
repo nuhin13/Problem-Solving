@@ -151,7 +151,19 @@ public class Main {
                 {'1', '1', '0', '0', '0'},
                 {'0', '1', '1', '0', '1'}
         };
-        System.out.println(new NumberofIslands_200().numIslands(grid));
+        int[][] grid1 = {
+                {1,1,1,1,1,1,1},
+                {1,0,0,0,0,0,1},
+                {1,0,1,1,1,0,1},
+                {1,0,1,0,1,0,1},
+                {1,0,1,1,1,0,1},
+                {1,0,0,0,0,0,1},
+                {1,1,1,1,1,1,1},
+        };
+        //System.out.println(new NumberofIslands_200().numIslands(grid));
+        //System.out.println(new NumberofClosedIslands_1254().closedIsland(grid1));
+        //System.out.println(new AddDigits_258().addDigits(38));
+        System.out.println(new AddBinary_67().addBinary("110001010101011", "1"));
     }
 
     private static ListNode generateLinkList_1() {
