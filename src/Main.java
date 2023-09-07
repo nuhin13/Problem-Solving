@@ -163,7 +163,10 @@ public class Main {
         //System.out.println(new NumberofIslands_200().numIslands(grid));
         //System.out.println(new NumberofClosedIslands_1254().closedIsland(grid1));
         //System.out.println(new AddDigits_258().addDigits(38));
-        System.out.println(new AddBinary_67().addBinary("110001010101011", "1"));
+        //System.out.println(new AddBinary_67().addBinary("110001010101011", "1"));
+        //System.out.println(new StrangePrinter_664().strangePrinter("aaabbb"));
+        int[] num52 = {1,12,-5,-6,50,3};
+        System.out.println(new MaximumAverageSubarrayI_643().findMaxAverage(num52, 4));
     }
 
     private static ListNode generateLinkList_1() {
