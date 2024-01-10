@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
         int[] num = {1, 1, 2, 3, 2, 3, 5, 6, 6, 7, 9, 9, 8, 7, 3};
@@ -166,7 +168,11 @@ public class Main {
         //System.out.println(new AddBinary_67().addBinary("110001010101011", "1"));
         //System.out.println(new StrangePrinter_664().strangePrinter("aaabbb"));
         int[] num52 = {1,12,-5,-6,50,3};
-        System.out.println(new MaximumAverageSubarrayI_643().findMaxAverage(num52, 4));
+        List<Integer> num5s = List.of(4);
+       // System.out.println(new MaximumAverageSubarrayI_643().findMaxAverage(num52, 4));
+
+        //HackerRankPlusMinus.plusMinus(num5s);
+        HackerRankSubarrayDivision.birthday(num5s, 1,0);
     }
 
     private static ListNode generateLinkList_1() {
