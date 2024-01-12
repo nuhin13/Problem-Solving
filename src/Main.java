@@ -6,6 +6,9 @@ public class Main {
         int[] hori = {10, 15, 20, 40, 5};
         int[] ver = {1, 3};
 
+        // +++++++++
+        // =========
+
         /*Testing
         /*String a = "a";
         StringBuilder ab = new StringBuilder();
@@ -172,7 +175,8 @@ public class Main {
        // System.out.println(new MaximumAverageSubarrayI_643().findMaxAverage(num52, 4));
 
         //HackerRankPlusMinus.plusMinus(num5s);
-        HackerRankSubarrayDivision.birthday(num5s, 1,0);
+        ///HackerRankSubarrayDivision.birthday(num5s, 1,0);\
+        System.out.println(new HackerRankTest().firstOccurrence("juliasamanthasamanthajulia", "ant*as"));
     }
 
     private static ListNode generateLinkList_1() {
