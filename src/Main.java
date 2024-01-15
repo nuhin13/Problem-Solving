@@ -170,7 +170,7 @@ public class Main {
         //System.out.println(new AddDigits_258().addDigits(38));
         //System.out.println(new AddBinary_67().addBinary("110001010101011", "1"));
         //System.out.println(new StrangePrinter_664().strangePrinter("aaabbb"));
-        int[] num52 = {1,12,-5,-6,50,3};
+        Integer[] num52 = {256741038, 623958417, 467905213, 714532089, 938071625};
         List<Integer> num5s = List.of(2,5,1,3,4,4,3,5,1,1,2,1,4,1,3,3,4,2,1);
        // System.out.println(new MaximumAverageSubarrayI_643().findMaxAverage(num52, 4));
 
@@ -179,6 +179,8 @@ public class Main {
         new HackerRankStaircase().staircase(6);
         ///HackerRankSubarrayDivision.birthday(num5s, 1,0);\
         System.out.println(new HackerRankTest().firstOccurrence("juliasamanthasamanthajulia", "ant*as"));
+        //new HackerRankStaircase().staircase(6);
+        new HackerRankStaircase().miniMaxSum(num52);
     }
 
     private static ListNode generateLinkList_1() {
