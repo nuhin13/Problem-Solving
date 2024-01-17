@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.List;
 
 public class Main {
@@ -172,15 +173,21 @@ public class Main {
         //System.out.println(new StrangePrinter_664().strangePrinter("aaabbb"));
         Integer[] num52 = {256741038, 623958417, 467905213, 714532089, 938071625};
         List<Integer> num5s = List.of(2,5,1,3,4,4,3,5,1,1,2,1,4,1,3,3,4,2,1);
-       // System.out.println(new MaximumAverageSubarrayI_643().findMaxAverage(num52, 4));
+        //System.out.println(new MaximumAverageSubarrayI_643().findMaxAverage(num52, 4));
 
         //HackerRankPlusMinus.plusMinus(num5s);
         //HackerRankSubarrayDivision.birthday(num5s, 4,2);
-        new HackerRankStaircase().staircase(6);
-        ///HackerRankSubarrayDivision.birthday(num5s, 1,0);\
-        System.out.println(new HackerRankTest().firstOccurrence("juliasamanthasamanthajulia", "ant*as"));
         //new HackerRankStaircase().staircase(6);
-        new HackerRankStaircase().miniMaxSum(num52);
+        ///HackerRankSubarrayDivision.birthday(num5s, 1,0);\
+        // System.out.println(new HackerRankTest().firstOccurrence("juliasamanthasamanthajulia", "ant*as"));
+        //new HackerRankStaircase().staircase(6);
+        //new HackerRankStaircase().miniMaxSum(num52);
+        //12:45:54PM 12:00:00AM 12:05:39AM
+
+        HackerRankMonthlyChallenge hack = new HackerRankMonthlyChallenge();
+
+        //System.out.println(new HackerRankMonthlyChallenge().timeConversion("12:45:54PM"));
+        System.out.println(Arrays.toString(hack.matchingStrings(hack.getMatchInput(), hack.getMatchQueriesInput())));
     }
 
     private static ListNode generateLinkList_1() {
