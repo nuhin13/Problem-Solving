@@ -2,15 +2,15 @@ class HackerRankMonthlyChallenge {
     fun timeConversion(s: String): String {
         val split = s.split(":").toMutableList()
 
-        if(split[2][2] == 'P'){
-            if(split[0].toInt() != 12)
+        if (split[2][2] == 'P') {
+            if (split[0].toInt() != 12)
                 split[0] = (split[0].toInt() + 12).toString()
         } else {
-            if(split[0].toInt() == 12) {
+            if (split[0].toInt() == 12) {
                 split[0] = "00"
             }
         }
-        split[2] = split[2].substring(0,2)
+        split[2] = split[2].substring(0, 2)
         return "${split[0]}:${split[1]}:${split[2]}"
     }
 
@@ -22,12 +22,12 @@ class HackerRankMonthlyChallenge {
 
         val result = IntArray(queries.size)
 
-        for (i in queries.indices){
-            if(stringMap.contains(queries[i]))
-               result[i] = stringMap[queries[i]]!!
+        for (i in queries.indices) {
+            if (stringMap.contains(queries[i]))
+                result[i] = stringMap[queries[i]]!!
         }
 
-        return  result.toTypedArray()
+        return result.toTypedArray()
     }
 
     fun flippingBits(n: Long): Long {
@@ -36,7 +36,10 @@ class HackerRankMonthlyChallenge {
         println(n.inv().toInt())
         println(Integer.toUnsignedString(n.inv().toInt()))
 
-        return  Integer.toUnsignedString(n.inv().toInt()).toLong()
+        return Integer.toUnsignedString(n.inv().toInt()).toLong()
     }
+}
 
+fun main() {
+    println(HackerRankMonthlyChallenge().flippingBits(0))
 }
