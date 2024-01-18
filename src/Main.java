@@ -187,7 +187,7 @@ public class Main {
         HackerRankMonthlyChallenge hack = new HackerRankMonthlyChallenge();
 
         //System.out.println(new HackerRankMonthlyChallenge().timeConversion("12:45:54PM"));
-        System.out.println(Arrays.toString(hack.matchingStrings(hack.getMatchInput(), hack.getMatchQueriesInput())));
+        System.out.println(hack.flippingBits(2147483647));
     }
 
     private static ListNode generateLinkList_1() {

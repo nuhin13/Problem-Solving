@@ -1,5 +1,3 @@
-import java.util.Arrays
-
 class HackerRankMonthlyChallenge {
     fun timeConversion(s: String): String {
         val split = s.split(":").toMutableList()
@@ -31,4 +29,14 @@ class HackerRankMonthlyChallenge {
 
         return  result.toTypedArray()
     }
+
+    fun flippingBits(n: Long): Long {
+        println(Integer.toUnsignedString(n.toInt()))
+        println(n.inv())
+        println(n.inv().toInt())
+        println(Integer.toUnsignedString(n.inv().toInt()))
+
+        return  Integer.toUnsignedString(n.inv().toInt()).toLong()
+    }
+
 }
