@@ -1,3 +1,5 @@
+import java.util.Arrays
+
 class HackerRankMonthlyChallenge {
     fun timeConversion(s: String): String {
         val split = s.split(":").toMutableList()
@@ -38,8 +40,37 @@ class HackerRankMonthlyChallenge {
 
         return Integer.toUnsignedString(n.inv().toInt()).toLong()
     }
+
+    fun lonelyinteger(a: Array<Int>): Int {
+        val map: Map<Int, Int> = a.groupingBy { it }.eachCount()
+        var result = 0
+        for (i in a.indices) {
+            if (map[a[i]] == 1){
+                result = a[i]
+                break
+            }
+        }
+        return result
+    }
+
+    fun pangrams(s: String): String {
+        val asciMap = IntArray(26)
+        val ss = s.lowercase().trim().replace("\\s".toRegex(), "")
+        for (i in ss.indices) {
+            asciMap[(ss[i].code - 97)]++
+        }
+
+        println(asciMap.contentToString())
+
+        return if(asciMap.contains(0))
+            "not pangram"
+        else
+            "pangram"
+    }
 }
 
 fun main() {
-    println(HackerRankMonthlyChallenge().flippingBits(0))
+    //println(HackerRankMonthlyChallenge().flippingBits(0))
+    //println(HackerRankMonthlyChallenge().lonelyinteger(arrayOf(1,2,3,4,3,2,1)))
+    println(HackerRankMonthlyChallenge().pangrams("We promptly judged antique ivory buckles for the next prize"))
 }
